@@ -259,20 +259,21 @@ export default function LandingPage() {
       useInvertedBackground={true}
       faqs={[
         {
-          id: "f1",          title: "Do I need a reservation?",          content: "Reservations are highly recommended, especially for weekend evenings and special events, to ensure a seamless dining experience."}
-        ,
+          id: "f1",          title: "Do I need a reservation?",          content: "Reservations are highly recommended, especially for weekend evenings and special events, to ensure a seamless dining experience."
+        },
         {
-          id: "f2",          title: "Do you accommodate dietary restrictions?",          content: "Yes, our culinary team is happy to accommodate most dietary restrictions and allergies. Please inform us when making your reservation."}
-        ,
+          id: "f2",          title: "Do you accommodate dietary restrictions?",          content: "Yes, our culinary team is happy to accommodate most dietary restrictions and allergies. Please inform us when making your reservation."
+        },
         {
-          id: "f3",          title: "What are your operating hours?",          content: "We are open Tuesday to Sunday from 5:00 PM to 10:00 PM. We are closed on Mondays. Special holiday hours may apply."}
-        ,
+          id: "f3",          title: "What are your operating hours?",          content: "We are open Tuesday to Sunday from 5:00 PM to 10:00 PM. We are closed on Mondays. Special holiday hours may apply."
+        },
         {
-          id: "f4",          title: "Is there a dress code?",          content: "We encourage smart casual attire to maintain the elegant ambiance of our restaurant."}
-        ,
+          id: "f4",          title: "Is there a dress code?",          content: "We encourage smart casual attire to maintain the elegant ambiance of our restaurant."
+        },
         {
-          id: "f5",          title: "Do you offer private dining?",          content: "Yes, we have several private dining rooms perfect for intimate gatherings or corporate events. Please contact us for more details and booking."}
-      ]
+          id: "f5",          title: "Do you offer private dining?",          content: "Yes, we have several private dining rooms perfect for intimate gatherings or corporate events. Please contact us for more details and booking."
+        }
+      ]}
       imageSrc="http://img.b2bpic.net/free-photo/happy-man-serving-guest-with-coffee-while-working-parttime-as-waiter-cafe_637285-2468.jpg"
       imageAlt="Restaurant staff welcoming guests"
       mediaAnimation="opacity"
@@ -293,10 +294,11 @@ export default function LandingPage() {
       description="Ready to savor the timeless flavors and elegant ambiance of The Old Resto? Reserve your table today and let us create a memorable evening for you."
       buttons={[
         {
-          text: "Make a Reservation",          href: "#"}
-        ,
+          text: "Make a Reservation",          href: "#"
+        },
         {
-          text: "Send an Inquiry",          href: "#"}
+          text: "Send an Inquiry",          href: "#"
+        }
       ]}
     />
   </div>
