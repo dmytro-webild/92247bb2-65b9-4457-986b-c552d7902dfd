@@ -106,7 +106,7 @@ export default function LandingPage() {
       <MetricSplitMediaAbout
       useInvertedBackground={true}
       title="Our Story: A Legacy of Culinary Excellence"
-      description="Since its inception in 1985, The Old Resto has been a cherished culinary landmark, dedicated to preserving classic recipes and creating unforgettable dining experiences. Our commitment to quality ingredients and impeccable service has defined generations."
+      description="Since its inception in 2023, The Old Resto has been a cherished culinary landmark, dedicated to preserving classic recipes and creating unforgettable dining experiences. Our commitment to quality ingredients and impeccable service has defined generations."
       metrics={[
         {
           value: "2023 ",          title: "Established"
