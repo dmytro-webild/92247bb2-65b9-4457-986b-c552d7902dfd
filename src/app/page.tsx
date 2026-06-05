@@ -81,7 +81,7 @@ export default function LandingPage() {
       buttonAnimation="opacity"
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/roasted-rack-pork-ribs_80436-1249.jpg",          imageAlt: "Roasted rack of pork ribs"
+          imageSrc: "http://img.b2bpic.net/free-photo/roasted-rack-pork-ribs_80436-1249.jpg?_wi=2",          imageAlt: "Roasted rack of pork ribs"
         },
         {
           imageSrc: "http://img.b2bpic.net/free-photo/barbecue-ribs-french-fries-bbq-sauce_140725-3733.jpg",          imageAlt: "Barbecue ribs with french fries"
@@ -151,7 +151,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "p0",          name: "Signature BBQ Spareribs",          price: "$32.00",          imageSrc: "http://img.b2bpic.net/free-photo/roasted-rack-pork-ribs_80436-1249.jpg",          imageAlt: "Signature BBQ Spareribs"
+          id: "p0",          name: "Signature BBQ Spareribs",          price: "$32.00",          imageSrc: "http://img.b2bpic.net/free-photo/roasted-rack-pork-ribs_80436-1249.jpg?_wi=3",          imageAlt: "Signature BBQ Spareribs"
         },
         {
           id: "p1",          name: "Aged Ribeye Steak",          price: "$45.00",          imageSrc: "http://img.b2bpic.net/free-photo/grilled-beef-steak-with-asparagus-roasted-vegetables_84443-94484.jpg",          imageAlt: "Perfectly cooked steak"
