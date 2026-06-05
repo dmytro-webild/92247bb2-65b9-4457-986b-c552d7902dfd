@@ -151,7 +151,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "p0",          name: "Signature BBQ Spareribs",          price: "$32.00",          imageSrc: "http://img.b2bpic.net/free-photo/roasted-rack-pork-ribs_80436-1249.jpg?_wi=3",          imageAlt: "Signature BBQ Spareribs"
+          id: "p0",          name: "Signature BBQ Spareribs",          price: "$32.00",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EiDbwj2wR4WkRq3NrUNPa6gXzp/uploaded-1780653796279-xoajvnme.jpg",          imageAlt: "Signature BBQ Spareribs"
         },
         {
           id: "p1",          name: "Aged Ribeye Steak",          price: "$45.00",          imageSrc: "http://img.b2bpic.net/free-photo/grilled-beef-steak-with-asparagus-roasted-vegetables_84443-94484.jpg",          imageAlt: "Perfectly cooked steak"
