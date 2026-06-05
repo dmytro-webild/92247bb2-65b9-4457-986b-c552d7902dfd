@@ -255,27 +255,27 @@ export default function LandingPage() {
       useInvertedBackground={true}
       faqs={[
         {
-          id: "f1",          title: "Do I need a reservation?",          content: "Reservations are highly recommended, especially for weekend evenings and special events, to ensure a seamless dining experience."
+          id: "f1",          title: "Heb ik een reservering nodig?",          content: "Reserveren wordt sterk aanbevolen, vooral voor weekendavonden en speciale evenementen, om een naadloze eetervaring te garanderen."
         },
         {
-          id: "f2",          title: "Do you accommodate dietary restrictions?",          content: "Yes, our culinary team is happy to accommodate most dietary restrictions and allergies. Please inform us when making your reservation."
+          id: "f2",          title: "Houdt u rekening met dieetwensen?",          content: "Ja, ons culinaire team houdt graag rekening met de meeste dieetwensen en allergieën. Gelieve ons hiervan op de hoogte te stellen bij het maken van uw reservering."
         },
         {
-          id: "f3",          title: "What are your operating hours?",          content: "We are open Tuesday to Sunday from 5:00 PM to 10:00 PM. We are closed on Mondays. Special holiday hours may apply."
+          id: "f3",          title: "Wat zijn uw openingstijden?",          content: "Wij zijn geopend van dinsdag tot en met zondag van 17:00 tot 22:00 uur. Op maandag zijn wij gesloten. Afwijkende openingstijden tijdens feestdagen kunnen van toepassing zijn."
         },
         {
-          id: "f4",          title: "Is there a dress code?",          content: "We encourage smart casual attire to maintain the elegant ambiance of our restaurant."
+          id: "f4",          title: "Is er een dresscode?",          content: "Wij moedigen nette casual kleding aan om de elegante sfeer van ons restaurant te behouden."
         },
         {
-          id: "f5",          title: "Do you offer private dining?",          content: "Yes, we have several private dining rooms perfect for intimate gatherings or corporate events. Please contact us for more details and booking."
+          id: "f5",          title: "Biedt u privé-diners aan?",          content: "Ja, we hebben verschillende privé-eetzalen die perfect zijn voor intieme bijeenkomsten of zakelijke evenementen. Neem contact met ons op voor meer details en reserveringen."
         }
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/happy-man-serving-guest-with-coffee-while-working-parttime-as-waiter-cafe_637285-2468.jpg"
       imageAlt="Restaurant staff welcoming guests"
       mediaAnimation="opacity"
       mediaPosition="right"
-      title="Frequently Asked Questions"
-      description="Find quick answers to the most common inquiries about dining at The Old Resto."
+      title="Veelgestelde Vragen"
+      description="Vind hier snel antwoorden op de meest voorkomende vragen over dineren bij The Old Resto."
       faqsAnimation="slide-up"
     />
   </div>
@@ -285,15 +285,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{
         variant: "plain"}}
-      tag="Reservations"
-      title="Book Your Unforgettable Dining Experience"
-      description="Ready to savor the timeless flavors and elegant ambiance of The Old Resto? Reserve your table today and let us create a memorable evening for you."
+      tag="Reserveringen"
+      title="Boek Uw Onvergetelijke Dinerervaring"
+      description="Klaar om te genieten van de tijdloze smaken en elegante sfeer van The Old Resto? Reserveer vandaag nog uw tafel en laat ons een memorabele avond voor u creëren."
       buttons={[
         {
-          text: "Make a Reservation",          href: "#"
+          text: "Maak een Reservering",          href: "#"
         },
         {
-          text: "Send an Inquiry",          href: "#"
+          text: "Stuur een Aanvraag",          href: "#"
         }
       ]}
     />
@@ -303,53 +303,53 @@ export default function LandingPage() {
       <FooterSimple
       columns={[
         {
-          title: "Explore",          items: [
+          title: "Verken",          items: [
             {
-              label: "Home",              href: "#home"
+              label: "Thuis",              href: "#home"
             },
             {
-              label: "About Us",              href: "#about"
+              label: "Over Ons",              href: "#about"
             },
             {
-              label: "Our Menu",              href: "#menu"
+              label: "Ons Menu",              href: "#menu"
             },
             {
-              label: "Order Online",              href: "/order-online"
+              label: "Online Bestellen",              href: "/order-online"
             },
             {
-              label: "Private Events",              href: "#events"
+              label: "Privé-evenementen",              href: "#events"
             }
           ]
         },
         {
-          title: "Connect",          items: [
+          title: "Verbinden",          items: [
             {
-              label: "Reservations",              href: "#contact"
+              label: "Reserveringen",              href: "#contact"
             },
             {
-              label: "Contact Us",              href: "#contact"
+              label: "Contacteer Ons",              href: "#contact"
             },
             {
-              label: "Careers",              href: "#"
+              label: "Carrières",              href: "#"
             },
             {
-              label: "Press",              href: "#"
+              label: "Pers",              href: "#"
             }
           ]
         },
         {
-          title: "Legal",          items: [
+          title: "Wettelijk",          items: [
             {
-              label: "Privacy Policy",              href: "#"
+              label: "Privacybeleid",              href: "#"
             },
             {
-              label: "Terms of Service",              href: "#"
+              label: "Servicevoorwaarden",              href: "#"
             }
           ]
         }
       ]}
-      bottomLeftText="© 2024 The Old Resto. All rights reserved."
-      bottomRightText="Crafted with tradition."
+      bottomLeftText="© 2024 The Old Resto. Alle rechten voorbehouden."
+      bottomRightText="Gemaakt met traditie."
     />
   </div>
       </ReactLenis>
