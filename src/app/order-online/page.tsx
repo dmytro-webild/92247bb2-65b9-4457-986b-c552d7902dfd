@@ -28,33 +28,33 @@ export default function OrderOnlinePage() {
                 name: "Home",                id: "/"
               },
               {
-                name: "About",                id: "/#about"
+                name: "Over Ons",                id: "/#about"
               },
               {
                 name: "Spareribs & Menu",                id: "/#menu"
               },
               {
-                name: "Order Online",                id: "/order-online"
+                name: "Online Bestellen",                id: "/order-online"
               },
               {
-                name: "Events",                id: "/#events"
+                name: "Evenementen",                id: "/#events"
               },
               {
-                name: "Testimonials",                id: "/#testimonials"
+                name: "Getuigenissen",                id: "/#testimonials"
               },
               {
-                name: "FAQ",                id: "/#faq"
+                name: "Veelgestelde Vragen",                id: "/#faq"
               },
               {
                 name: "Contact",                id: "/#contact"
               }
             ]}
             button={{
-              text: "Book a Table",              href: "/#contact"
+              text: "Reserveer een Tafel",              href: "/#contact"
             }}
             brandName="The Old Resto"
             logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EiDbwj2wR4WkRq3NrUNPa6gXzp/uploaded-1780653655490-951p9d.svg"
-            logoAlt="The Old Resto Logo"
+            logoAlt="Het Oude Resto Logo"
           />
         </div>
 
@@ -69,29 +69,29 @@ export default function OrderOnlinePage() {
                 id: "ol0",                name: "Signature BBQ Spareribs",                price: "€32.00",                imageSrc: "http://img.b2bpic.net/free-photo/roasted-rack-pork-ribs_80436-1249.jpg?_wi=1",                imageAlt: "Signature BBQ Spareribs"
               },
               {
-                id: "ol1",                name: "Classic Beef Burger",                price: "€18.00",                imageSrc: "http://img.b2bpic.net/free-photo/delicious-cheeseburger_144627-27083.jpg",                imageAlt: "Classic Beef Burger"
+                id: "ol1",                name: "Klassieke Beef Burger",                price: "€18.00",                imageSrc: "http://img.b2bpic.net/free-photo/delicious-cheeseburger_144627-27083.jpg",                imageAlt: "Klassieke Beef Burger"
               },
               {
                 id: "ol2",                name: "Gourmet Veggie Pizza",                price: "€22.00",                imageSrc: "http://img.b2bpic.net/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-12165.jpg",                imageAlt: "Gourmet Veggie Pizza"
               },
               {
-                id: "ol3",                name: "Spicy Chicken Wings (6 pcs)",                price: "€14.00",                imageSrc: "http://img.b2bpic.net/free-photo/fried-chicken-wings-barbecue-sauce-served-with-herbs_140725-50269.jpg",                imageAlt: "Spicy Chicken Wings"
+                id: "ol3",                name: "Pittige Kipvleugels (6 stuks)",                price: "€14.00",                imageSrc: "http://img.b2bpic.net/free-photo/fried-chicken-wings-barbecue-sauce-served-with-herbs_140725-50269.jpg",                imageAlt: "Pittige Kipvleugels"
               },
               {
-                id: "ol4",                name: "Crispy French Fries",                price: "€7.00",                imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-fries_23-2148135899.jpg",                imageAlt: "Crispy French Fries"
+                id: "ol4",                name: "Krokante Franse Frietjes",                price: "€7.00",                imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-fries_23-2148135899.jpg",                imageAlt: "Krokante Franse Frietjes"
               },
               {
-                id: "ol5",                name: "Fresh Garden Salad",                price: "€12.00",                imageSrc: "http://img.b2bpic.net/free-photo/fresh-salad-with-greens-tomatoes_140725-1175.jpg",                imageAlt: "Fresh Garden Salad"
+                id: "ol5",                name: "Verse Tuinsalade",                price: "€12.00",                imageSrc: "http://img.b2bpic.net/free-photo/fresh-salad-with-greens-tomatoes_140725-1175.jpg",                imageAlt: "Verse Tuinsalade"
               },
               {
-                id: "ol6",                name: "Chocolate Lava Cake",                price: "€10.00",                imageSrc: "http://img.b2bpic.net/free-photo/cake-slice-with-melted-chocolate_23-2148408906.jpg",                imageAlt: "Chocolate Lava Cake"
+                id: "ol6",                name: "Chocolade Lavacake",                price: "€10.00",                imageSrc: "http://img.b2bpic.net/free-photo/cake-slice-with-melted-chocolate_23-2148408906.jpg",                imageAlt: "Chocolade Lavacake"
               }
             ]}
-            title="Order Your Favorite Spareribs & Dishes for Delivery!"
-            description="Enjoy the legendary taste of The Old Resto's spareribs and other classic dishes from the comfort of your home. Browse our selection and order now for quick home delivery."
+            title="Bestel Jouw Favoriete Spareribs & Gerechten Online!"
+            description="Geniet van de legendarische smaak van The Old Resto's spareribs en andere klassieke gerechten vanuit het comfort van je huis. Blader door onze selectie en bestel nu voor snelle thuisbezorging."
             buttons={[
               {
-                text: "Proceed to Checkout",                href: "#"
+                text: "Verder naar Afrekenen",                href: "#"
               }
             ]}
           />
@@ -100,13 +100,13 @@ export default function OrderOnlinePage() {
         <div id="footer" data-section="footer">
           <FooterLogoReveal
             logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EiDbwj2wR4WkRq3NrUNPa6gXzp/uploaded-1780653655490-951p9d.svg"
-            logoAlt="The Old Resto Logo"
+            logoAlt="Het Oude Resto Logo"
             logoText="The Old Resto"
             leftLink={{
               text: "Home",              href: "/"
             }}
             rightLink={{
-              text: "Reservations",              href: "/#contact"
+              text: "Reserveringen",              href: "/#contact"
             }}
           />
         </div>
