@@ -81,7 +81,7 @@ export default function LandingPage() {
       buttonAnimation="opacity"
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/roasted-rack-pork-ribs_80436-1249.jpg?_wi=2",          imageAlt: "Roasted rack of pork ribs"
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EiDbwj2wR4WkRq3NrUNPa6gXzp/uploaded-1780655384976-dxkgq8p9.jpg",          imageAlt: "Roasted rack of pork ribs"
         },
         {
           imageSrc: "http://img.b2bpic.net/free-photo/barbecue-ribs-french-fries-bbq-sauce_140725-3733.jpg",          imageAlt: "Barbecue ribs with french fries"
