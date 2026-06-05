@@ -5,7 +5,7 @@ import ReactLenis from "lenis/react";
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FeatureCardNineteen from '@/components/sections/feature/FeatureCardNineteen';
-import FooterSimple from '@/components/sections/footer/FooterSimple';
+import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import HeroBillboardGallery from '@/components/sections/hero/HeroBillboardGallery';
 import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
@@ -33,34 +33,36 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Home",          id: "#home"
+          name: "Home",          id: "/"
         },
         {
-          name: "About",          id: "#about"
+          name: "About",          id: "/#about"
         },
         {
-          name: "Spareribs & Menu",          id: "#menu"
+          name: "Spareribs & Menu",          id: "/#menu"
         },
         {
           name: "Order Online",          id: "/order-online"
         },
         {
-          name: "Events",          id: "#events"
+          name: "Events",          id: "/#events"
         },
         {
-          name: "Testimonials",          id: "#testimonials"
+          name: "Testimonials",          id: "/#testimonials"
         },
         {
-          name: "FAQ",          id: "#faq"
+          name: "FAQ",          id: "/#faq"
         },
         {
-          name: "Contact",          id: "#contact"
+          name: "Contact",          id: "/#contact"
         }
       ]}
       button={{
-        text: "Book a Table",        href: "#contact"
+        text: "Book a Table",        href: "/#contact"
       }}
       brandName="The Old Resto"
+      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EiDbwj2wR4WkRq3NrUNPa6gXzp/uploaded-1780653655490-951p9d.svg"
+      logoAlt="The Old Resto Logo"
     />
   </div>
 
@@ -72,10 +74,10 @@ export default function LandingPage() {
       description="Dive into endless plates of our succulent, slow-cooked spareribs, glazed to perfection. An unforgettable feast awaits!"
       buttons={[
         {
-          text: "View Our Menu",          href: "#menu"
+          text: "View Our Menu",          href: "/#menu"
         },
         {
-          text: "Claim Your Spareribs Feast",          href: "#events"
+          text: "Claim Your Spareribs Feast",          href: "/#events"
         }
       ]}
       buttonAnimation="opacity"
@@ -182,7 +184,7 @@ export default function LandingPage() {
       plans={[
         {
           id: "spareribs-feast",          tag: "Limited Time Offer",          price: "€35",          period: "per person",          description: "Indulge in endless plates of our signature, slow-cooked spareribs, accompanied by your choice of delicious sides.",          button: {
-            text: "Book Spareribs Feast",            href: "#contact"
+            text: "Book Spareribs Feast",            href: "/#contact"
           },
           featuresTitle: "Includes:",          features: [
             "All-You-Can-Eat Signature Spareribs",            "Choice of 2 Sides (e.g., Fries, Coleslaw)",            "Non-alcoholic Beverages"
@@ -190,7 +192,7 @@ export default function LandingPage() {
         },
         {
           id: "premium",          tag: "Popular",          price: "€120",          period: "per guest",          description: "An elevated dining experience with premium selections.",          button: {
-            text: "Select Premium",            href: "#contact"
+            text: "Select Premium",            href: "/#contact"
           },
           featuresTitle: "Includes:",          features: [
             "5-Course Tasting Menu",            "Amuse-bouche",            "Choice of 3 Appetizers",            "Choice of 4 Main Courses",            "2 Dessert Selections",            "Sommelier-selected Wine Pairing",            "Coffee & Tea Service"
@@ -198,7 +200,7 @@ export default function LandingPage() {
         },
         {
           id: "bespoke",          tag: "Custom",          price: "Contact for Quote",          period: "per event",          description: "Tailored to your every desire for a truly unique event.",          button: {
-            text: "Inquire Now",            href: "#contact"
+            text: "Inquire Now",            href: "/#contact"
           },
           featuresTitle: "Includes:",          features: [
             "Fully Customizable Menu",            "Private Chef & Service Staff",            "Exclusive Venue Access",            "Premium Beverage Package",            "Decor & Ambiance Consultation"
@@ -290,66 +292,26 @@ export default function LandingPage() {
       description="Klaar om te genieten van de tijdloze smaken en elegante sfeer van The Old Resto? Reserveer vandaag nog uw tafel en laat ons een memorabele avond voor u creëren."
       buttons={[
         {
-          text: "Maak een Reservering",          href: "#"
+          text: "Maak een Reservering",          href: "/#contact"
         },
         {
-          text: "Stuur een Aanvraag",          href: "#"
+          text: "Stuur een Aanvraag",          href: "/#contact"
         }
       ]}
     />
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterSimple
-      columns={[
-        {
-          title: "Verken",          items: [
-            {
-              label: "Thuis",              href: "#home"
-            },
-            {
-              label: "Over Ons",              href: "#about"
-            },
-            {
-              label: "Ons Menu",              href: "#menu"
-            },
-            {
-              label: "Online Bestellen",              href: "/order-online"
-            },
-            {
-              label: "Privé-evenementen",              href: "#events"
-            }
-          ]
-        },
-        {
-          title: "Verbinden",          items: [
-            {
-              label: "Reserveringen",              href: "#contact"
-            },
-            {
-              label: "Contacteer Ons",              href: "#contact"
-            },
-            {
-              label: "Carrières",              href: "#"
-            },
-            {
-              label: "Pers",              href: "#"
-            }
-          ]
-        },
-        {
-          title: "Wettelijk",          items: [
-            {
-              label: "Privacybeleid",              href: "#"
-            },
-            {
-              label: "Servicevoorwaarden",              href: "#"
-            }
-          ]
-        }
-      ]}
-      bottomLeftText="© 2024 The Old Resto. Alle rechten voorbehouden."
-      bottomRightText="Gemaakt met traditie."
+      <FooterLogoReveal
+      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EiDbwj2wR4WkRq3NrUNPa6gXzp/uploaded-1780653655490-951p9d.svg"
+      logoAlt="The Old Resto Logo"
+      logoText="The Old Resto"
+      leftLink={{
+        text: "Home",        href: "/"
+      }}
+      rightLink={{
+        text: "Reservations",        href: "/#contact"
+      }}
     />
   </div>
       </ReactLenis>
