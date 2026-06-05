@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleCentered from "@/components/navbar/NavbarStyleCentered/NavbarStyleCentered";
 import ProductCardOne from "@/components/sections/product/ProductCardOne";
-import FooterSimple from "@/components/sections/footer/FooterSimple";
+import FooterLogoReveal from "@/components/sections/footer/FooterLogoReveal";
 
 export default function OrderOnlinePage() {
   return (
@@ -28,31 +28,33 @@ export default function OrderOnlinePage() {
                 name: "Home",                id: "/"
               },
               {
-                name: "About",                id: "#about"
+                name: "About",                id: "/#about"
               },
               {
-                name: "Spareribs & Menu",                id: "#menu"
+                name: "Spareribs & Menu",                id: "/#menu"
               },
               {
                 name: "Order Online",                id: "/order-online"
               },
               {
-                name: "Events",                id: "#events"
+                name: "Events",                id: "/#events"
               },
               {
-                name: "Testimonials",                id: "#testimonials"
+                name: "Testimonials",                id: "/#testimonials"
               },
               {
-                name: "FAQ",                id: "#faq"
+                name: "FAQ",                id: "/#faq"
               },
               {
-                name: "Contact",                id: "#contact"
+                name: "Contact",                id: "/#contact"
               }
             ]}
             button={{
-              text: "Book a Table",              href: "#contact"
+              text: "Book a Table",              href: "/#contact"
             }}
             brandName="The Old Resto"
+            logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EiDbwj2wR4WkRq3NrUNPa6gXzp/uploaded-1780653655490-951p9d.svg"
+            logoAlt="The Old Resto Logo"
           />
         </div>
 
@@ -96,56 +98,16 @@ export default function OrderOnlinePage() {
         </div>
 
         <div id="footer" data-section="footer">
-          <FooterSimple
-            columns={[
-              {
-                title: "Explore",                items: [
-                  {
-                    label: "Home",                    href: "/"
-                  },
-                  {
-                    label: "About Us",                    href: "#about"
-                  },
-                  {
-                    label: "Our Menu",                    href: "#menu"
-                  },
-                  {
-                    label: "Order Online",                    href: "/order-online"
-                  },
-                  {
-                    label: "Private Events",                    href: "#events"
-                  }
-                ]
-              },
-              {
-                title: "Connect",                items: [
-                  {
-                    label: "Reservations",                    href: "#contact"
-                  },
-                  {
-                    label: "Contact Us",                    href: "#contact"
-                  },
-                  {
-                    label: "Careers",                    href: "#"
-                  },
-                  {
-                    label: "Press",                    href: "#"
-                  }
-                ]
-              },
-              {
-                title: "Legal",                items: [
-                  {
-                    label: "Privacy Policy",                    href: "#"
-                  },
-                  {
-                    label: "Terms of Service",                    href: "#"
-                  }
-                ]
-              }
-            ]}
-            bottomLeftText="© 2024 The Old Resto. All rights reserved."
-            bottomRightText="Crafted with tradition."
+          <FooterLogoReveal
+            logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EiDbwj2wR4WkRq3NrUNPa6gXzp/uploaded-1780653655490-951p9d.svg"
+            logoAlt="The Old Resto Logo"
+            logoText="The Old Resto"
+            leftLink={{
+              text: "Home",              href: "/"
+            }}
+            rightLink={{
+              text: "Reservations",              href: "/#contact"
+            }}
           />
         </div>
       </ReactLenis>
