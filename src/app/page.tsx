@@ -247,7 +247,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "Gourmet Magazine",        "The Local Gazette",        "Gastronomy Awards",        "Travel & Leisure",        "Chef's Guild",        "Foodie Forum",        "Hospitality Excellence"}
+        "Gourmet Magazine",        "The Local Gazette",        "Gastronomy Awards",        "Travel & Leisure",        "Chef's Guild",        "Foodie Forum",        "Hospitality Excellence"]
       ]}
       title="Recognized for Excellence"
       description="Proudly featured in leading culinary publications and awarded by esteemed organizations for our unwavering commitment to quality."
