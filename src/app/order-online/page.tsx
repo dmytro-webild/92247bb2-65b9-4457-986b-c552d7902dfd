@@ -31,7 +31,7 @@ export default function OrderOnlinePage() {
                 name: "About",                id: "#about"
               },
               {
-                name: "Menu",                id: "#menu"
+                name: "Spareribs & Menu",                id: "#menu"
               },
               {
                 name: "Order Online",                id: "/order-online"
@@ -47,7 +47,7 @@ export default function OrderOnlinePage() {
               },
               {
                 name: "Contact",                id: "#contact"
-              }
+              },
             ]}
             button={{
               text: "Book a Table",              href: "#contact"
@@ -64,7 +64,7 @@ export default function OrderOnlinePage() {
             useInvertedBackground={false}
             products={[
               {
-                id: "ol-spareribs",                name: "Full Rack of Signature Spareribs",                price: "$32.00",                imageSrc: "http://img.b2bpic.net/free-photo/grilled-ribs_140725-34505.jpg",                imageAlt: "Full Rack of Signature Spareribs"
+                id: "ol0",                name: "Signature BBQ Spareribs",                price: "$32.00",                imageSrc: "http://img.b2bpic.net/free-photo/roasted-rack-pork-ribs_80436-1249.jpg",                imageAlt: "Signature BBQ Spareribs"
               },
               {
                 id: "ol1",                name: "Classic Beef Burger",                price: "$18.00",                imageSrc: "http://img.b2bpic.net/free-photo/delicious-cheeseburger_144627-27083.jpg",                imageAlt: "Classic Beef Burger"
@@ -83,14 +83,14 @@ export default function OrderOnlinePage() {
               },
               {
                 id: "ol6",                name: "Chocolate Lava Cake",                price: "$10.00",                imageSrc: "http://img.b2bpic.net/free-photo/cake-slice-with-melted-chocolate_23-2148408906.jpg",                imageAlt: "Chocolate Lava Cake"
-              }
+              },
             ]}
-            title="Order Your Favorite Dishes & Spareribs for Delivery!"
-            description="Enjoy the legendary taste of The Old Resto, including our famous spareribs, from the comfort of your home. Browse our selection and order for quick home delivery."
+            title="Order Your Favorite Spareribs & Dishes for Delivery!"
+            description="Enjoy the legendary taste of The Old Resto's spareribs and other classic dishes from the comfort of your home. Browse our selection and order now for quick home delivery."
             buttons={[
               {
                 text: "Proceed to Checkout",                href: "#"
-              }
+              },
             ]}
           />
         </div>
@@ -114,8 +114,8 @@ export default function OrderOnlinePage() {
                   },
                   {
                     label: "Private Events",                    href: "#events"
-                  }
-                ]
+                  },
+                ],
               },
               {
                 title: "Connect",                items: [
@@ -130,8 +130,8 @@ export default function OrderOnlinePage() {
                   },
                   {
                     label: "Press",                    href: "#"
-                  }
-                ]
+                  },
+                ],
               },
               {
                 title: "Legal",                items: [
@@ -140,9 +140,9 @@ export default function OrderOnlinePage() {
                   },
                   {
                     label: "Terms of Service",                    href: "#"
-                  }
-                ]
-              }
+                  },
+                ],
+              },
             ]}
             bottomLeftText="© 2024 The Old Resto. All rights reserved."
             bottomRightText="Crafted with tradition."
