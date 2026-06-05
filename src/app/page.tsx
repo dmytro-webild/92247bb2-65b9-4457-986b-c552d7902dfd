@@ -33,13 +33,13 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Home",          id: "/"
+          name: "Home",          id: "#home"
         },
         {
           name: "About",          id: "#about"
         },
         {
-          name: "Menu",          id: "#menu"
+          name: "Spareribs & Menu",          id: "#menu"
         },
         {
           name: "Order Online",          id: "/order-online"
@@ -55,7 +55,7 @@ export default function LandingPage() {
         },
         {
           name: "Contact",          id: "#contact"
-        }
+        },
       ]}
       button={{
         text: "Book a Table",        href: "#contact"
@@ -68,33 +68,33 @@ export default function LandingPage() {
       <HeroBillboardGallery
       background={{
         variant: "radial-gradient"}}
-      title="Savor the Flavor: All-You-Can-Eat Spareribs at The Old Resto!"
-      description="Indulge in our legendary, slow-cooked spareribs, basted with signature BBQ sauce. Now offering an irresistible all-you-can-eat experience that's a true feast for meat lovers!"
+      title="Savor the Sizzle: The Old Resto's All-You-Can-Eat Spareribs!"
+      description="Dive into endless plates of our succulent, slow-cooked spareribs, glazed to perfection. An unforgettable feast awaits!"
       buttons={[
         {
           text: "View Our Menu",          href: "#menu"
         },
         {
-          text: "Book a Table",          href: "#contact"
-        }
+          text: "Claim Your Spareribs Feast",          href: "#events"
+        },
       ]}
       buttonAnimation="opacity"
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/delicious-grilled-ribs-barbecue-sauce-wooden-table_23-2148782084.jpg",          imageAlt: "Delicious grilled spareribs"
+          imageSrc: "http://img.b2bpic.net/free-photo/roasted-rack-pork-ribs_80436-1249.jpg",          imageAlt: "Roasted rack of pork ribs"
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/grilled-ribs_140725-34505.jpg",          imageAlt: "Grilled spareribs"
+          imageSrc: "http://img.b2bpic.net/free-photo/barbecue-ribs-french-fries-bbq-sauce_140725-3733.jpg",          imageAlt: "Barbecue ribs with french fries"
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/plate-grilled-ribs-fries_23-2148782071.jpg",          imageAlt: "Grilled spareribs with fries"
+          imageSrc: "http://img.b2bpic.net/free-photo/grilled-pork-ribs-with-spices_23-2148113645.jpg",          imageAlt: "Grilled pork ribs with spices"
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/tasty-pork-ribs-wooden-cutting-board_23-2147926207.jpg",          imageAlt: "Tasty pork ribs on cutting board"
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-ribs-cooked-sauce-spices_23-2148810052.jpg",          imageAlt: "Top view of ribs cooked in sauce"
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-fried-ribs-with-spices_23-2148566935.jpg",          imageAlt: "Top view fried ribs with spices"
-        }
+          imageSrc: "http://img.b2bpic.net/free-photo/bbq-ribs-fresh-salad-with-herbs_23-2148108603.jpg",          imageAlt: "BBQ ribs with fresh salad"
+        },
       ]}
       mediaAnimation="opacity"
     />
@@ -107,14 +107,14 @@ export default function LandingPage() {
       description="Since its inception in 1985, The Old Resto has been a cherished culinary landmark, dedicated to preserving classic recipes and creating unforgettable dining experiences. Our commitment to quality ingredients and impeccable service has defined generations."
       metrics={[
         {
-          value: "1985",          title: "Established"}
-        ,
+          value: "1985",          title: "Established"
+        },
         {
-          value: "38+",          title: "Years of Service"}
-        ,
+          value: "38+",          title: "Years of Service"
+        },
         {
-          value: "20+",          title: "Award-Winning Chefs"}
-        ,
+          value: "20+",          title: "Award-Winning Chefs"
+        },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/restaurant-with-leather-sofa-paintings-wall_140725-9715.jpg"
       imageAlt="The Old Resto interior"
@@ -129,14 +129,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          tag: "Events",          title: "Exclusive Catering",          subtitle: "Bring The Old Resto experience to your event.",          description: "Our expert team crafts customized menus and provides exceptional service for any gathering, from intimate dinners to grand celebrations.",          imageSrc: "http://img.b2bpic.net/free-photo/people-cheering-with-wine-glasses-luxurious-restaurant_23-2150517422.jpg",          imageAlt: "Elegant catering event"}
-        ,
+          tag: "Events",          title: "Exclusive Catering",          subtitle: "Bring The Old Resto experience to your event.",          description: "Our expert team crafts customized menus and provides exceptional service for any gathering, from intimate dinners to grand celebrations.",          imageSrc: "http://img.b2bpic.net/free-photo/people-cheering-with-wine-glasses-luxurious-restaurant_23-2150517422.jpg",          imageAlt: "Elegant catering event"
+        },
         {
-          tag: "Gatherings",          title: "Private Dining Rooms",          subtitle: "Host your special moments in privacy.",          description: "Perfect for corporate meetings, family celebrations, or romantic evenings, our private rooms offer an intimate setting with personalized attention.",          imageSrc: "http://img.b2bpic.net/free-photo/restaurant-room-with-two-long-dinner-tables_140725-8455.jpg",          imageAlt: "Private event room"}
-        ,
+          tag: "Gatherings",          title: "Private Dining Rooms",          subtitle: "Host your special moments in privacy.",          description: "Perfect for corporate meetings, family celebrations, or romantic evenings, our private rooms offer an intimate setting with personalized attention.",          imageSrc: "http://img.b2bpic.net/free-photo/restaurant-room-with-two-long-dinner-tables_140725-8455.jpg",          imageAlt: "Private event room"
+        },
         {
-          tag: "Experience",          title: "Culinary Workshops",          subtitle: "Learn the secrets from our master chefs.",          description: "Join our interactive cooking classes and discover the techniques behind our signature dishes, a perfect activity for food enthusiasts.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-senior-couple-preparing-food-kitchen_23-2147901290.jpg",          imageAlt: "Cooking class"}
-        ,
+          tag: "Experience",          title: "Culinary Workshops",          subtitle: "Learn the secrets from our master chefs.",          description: "Join our interactive cooking classes and discover the techniques behind our signature dishes, a perfect activity for food enthusiasts.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-senior-couple-preparing-food-kitchen_23-2147901290.jpg",          imageAlt: "Cooking class"
+        },
       ]}
       title="Beyond the Plate: Our Signature Services"
       description="Discover how The Old Resto can enhance your next occasion with our bespoke services, tailored to create memorable experiences."
@@ -151,7 +151,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "p-spareribs-ayce",          name: "All-You-Can-Eat Signature Spareribs",          price: "$39.99",          imageSrc: "http://img.b2bpic.net/free-photo/grilled-ribs_140725-34505.jpg",          imageAlt: "All-You-Can-Eat Spareribs"
+          id: "p0",          name: "Signature BBQ Spareribs",          price: "$32.00",          imageSrc: "http://img.b2bpic.net/free-photo/roasted-rack-pork-ribs_80436-1249.jpg",          imageAlt: "Signature BBQ Spareribs"
         },
         {
           id: "p1",          name: "Aged Ribeye Steak",          price: "$45.00",          imageSrc: "http://img.b2bpic.net/free-photo/grilled-beef-steak-with-asparagus-roasted-vegetables_84443-94484.jpg",          imageAlt: "Perfectly cooked steak"
@@ -167,10 +167,10 @@ export default function LandingPage() {
         },
         {
           id: "p5",          name: "Heirloom Tomato Salad",          price: "$18.00",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-chopped-greens-bowl-white-checkered-towel-with-acroshka-yogurt-gray-surface-gray-surface_141793-18321.jpg",          imageAlt: "Fresh vibrant salad"
-        }
+        },
       ]}
-      title="Our Legendary All-You-Can-Eat Spareribs & Signature Dishes"
-      description="Dive into our succulent, fall-off-the-bone spareribs, alongside a curated selection of our most beloved dishes, all crafted with the finest ingredients."
+      title="Our Famous Spareribs & Signature Dishes"
+      description="Indulge in our tender, slow-cooked spareribs, a house specialty. Explore a curated selection of other beloved classics, prepared with the finest ingredients."
     />
   </div>
 
@@ -181,37 +181,32 @@ export default function LandingPage() {
       useInvertedBackground={false}
       plans={[
         {
-          id: "spareribs-ayce",          tag: "Limited Time Offer",          price: "$39.99",          period: "per person",          description: "Indulge in unlimited, succulent spareribs, slow-cooked to perfection and basted with our signature sauce. A true feast!",          button: {
-            text: "Claim This Offer",            href: "#contact"
+          id: "spareribs-feast",          tag: "Limited Time Offer",          price: "$35",          period: "per person",          description: "Indulge in endless plates of our signature, slow-cooked spareribs, accompanied by your choice of delicious sides.",          button: {
+            text: "Book Spareribs Feast",            href: "#contact"
           },
           featuresTitle: "Includes:",          features: [
-            "Unlimited Signature Spareribs",            "Choice of Classic Side Dish",            "House-made BBQ Sauces",            "Dine-in Only (2-hour limit)"
-          ]
-        },
-        {
-          id: "classic",          tag: "Standard",          price: "$75",          period: "per guest",          description: "Our classic set menu, ideal for intimate gatherings.",          button: {
-            text: "Select Classic",            href: "#contact"
-          },
-          featuresTitle: "Includes:",          features: [
-            "3-Course Meal",            "Choice of 2 Appetizers",            "Choice of 3 Main Courses",            "1 Dessert Selection",            "Non-alcoholic Beverages"]
+            "All-You-Can-Eat Signature Spareribs",            "Choice of 2 Sides (e.g., Fries, Coleslaw)",            "Non-alcoholic Beverages"
+          ],
         },
         {
           id: "premium",          tag: "Popular",          price: "$120",          period: "per guest",          description: "An elevated dining experience with premium selections.",          button: {
             text: "Select Premium",            href: "#contact"
           },
           featuresTitle: "Includes:",          features: [
-            "5-Course Tasting Menu",            "Amuse-bouche",            "Choice of 3 Appetizers",            "Choice of 4 Main Courses",            "2 Dessert Selections",            "Sommelier-selected Wine Pairing",            "Coffee & Tea Service"]
+            "5-Course Tasting Menu",            "Amuse-bouche",            "Choice of 3 Appetizers",            "Choice of 4 Main Courses",            "2 Dessert Selections",            "Sommelier-selected Wine Pairing",            "Coffee & Tea Service"
+          ],
         },
         {
           id: "bespoke",          tag: "Custom",          price: "Contact for Quote",          period: "per event",          description: "Tailored to your every desire for a truly unique event.",          button: {
             text: "Inquire Now",            href: "#contact"
           },
           featuresTitle: "Includes:",          features: [
-            "Fully Customizable Menu",            "Private Chef & Service Staff",            "Exclusive Venue Access",            "Premium Beverage Package",            "Decor & Ambiance Consultation"]
-        }
+            "Fully Customizable Menu",            "Private Chef & Service Staff",            "Exclusive Venue Access",            "Premium Beverage Package",            "Decor & Ambiance Consultation"
+          ],
+        },
       ]}
-      title="Special Offers, Events & Private Dining Packages"
-      description="Beyond our exquisite menu, discover exciting offers like our All-You-Can-Eat Spareribs, alongside bespoke event packages for your special moments."
+      title="All-You-Can-Eat Spareribs & Special Event Packages"
+      description="Don't miss our irresistible all-you-can-eat spareribs offer! We also craft bespoke packages for your private dining and special event needs."
     />
   </div>
 
@@ -222,19 +217,20 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "t1",          name: "Eleanor Vance",          role: "Regular Patron",          testimonial: "The Old Resto consistently delivers an exquisite dining experience. The ambiance is charming, and the food is simply divine. A true gem!",          imageSrc: "http://img.b2bpic.net/free-photo/smile-face-green-ball-with-golden-five-stars-customer-client-survey-satisfaction-after-use-product-service-concept-by-3d-render_616485-67.jpg",          imageAlt: "Eleanor Vance"}
-        ,
+          id: "t1",          name: "Eleanor Vance",          role: "Regular Patron",          testimonial: "The Old Resto consistently delivers an exquisite dining experience. The ambiance is charming, and the food is simply divine. A true gem!",          imageSrc: "http://img.b2bpic.net/free-photo/smile-face-green-ball-with-golden-five-stars-customer-client-survey-satisfaction-after-use-product-service-concept-by-3d-render_616485-67.jpg",          imageAlt: "Eleanor Vance"
+        },
         {
-          id: "t2",          name: "Jonathan Croft",          role: "Food Critic",          testimonial: "A masterclass in classic cuisine. Every dish is a testament to skill and tradition. The service is impeccable, truly a five-star establishment.",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-male-courier-yellow-uniform-holding-delivery-bowl-along-with-notepad-writing-notes-pink-background_140725-40669.jpg",          imageAlt: "Jonathan Croft"}
-        ,
+          id: "t2",          name: "Jonathan Croft",          role: "Food Critic",          testimonial: "A masterclass in classic cuisine. Every dish is a testament to skill and tradition. The service is impeccable, truly a five-star establishment.",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-male-courier-yellow-uniform-holding-delivery-bowl-along-with-notepad-writing-notes-pink-background_140725-40669.jpg",          imageAlt: "Jonathan Croft"
+        },
         {
-          id: "t3",          name: "Isabella Rossi",          role: "Event Host",          testimonial: "We hosted our anniversary dinner here, and it was perfect. The private dining room, personalized menu, and attentive staff made it unforgettable.",          imageSrc: "http://img.b2bpic.net/free-photo/young-stylish-woman-sitting-cafe-eating-tasty-pie_285396-1092.jpg",          imageAlt: "Isabella Rossi"}
-        ,
+          id: "t3",          name: "Isabella Rossi",          role: "Event Host",          testimonial: "We hosted our anniversary dinner here, and it was perfect. The private dining room, personalized menu, and attentive staff made it unforgettable.",          imageSrc: "http://img.b2bpic.net/free-photo/young-stylish-woman-sitting-cafe-eating-tasty-pie_285396-1092.jpg",          imageAlt: "Isabella Rossi"
+        },
         {
-          id: "t4",          name: "Chef Antoine Dubois",          role: "Visiting Chef",          testimonial: "It's rare to find a restaurant that honors tradition while executing with such precision. The Old Resto is a testament to culinary heritage.",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-young-chef-wearing-glasses-uniform-cap-looking-pointing-camera-isolated-purple-background_141793-134429.jpg",          imageAlt: "Chef Antoine Dubois"}
-        ,
+          id: "t4",          name: "Chef Antoine Dubois",          role: "Visiting Chef",          testimonial: "It's rare to find a restaurant that honors tradition while executing with such precision. The Old Resto is a testament to culinary heritage.",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-young-chef-wearing-glasses-uniform-cap-looking-pointing-camera-isolated-purple-background_141793-134429.jpg",          imageAlt: "Chef Antoine Dubois"
+        },
         {
-          id: "t5",          name: "Margot & George",          role: "Long-time Guests",          testimonial: "We've been coming to The Old Resto for decades. It feels like home, but with much better cooking! Always a delightful evening.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-beautiful-asian-mature-woman-showing-ok-sign-smiling-approve-like-product-service-standing-pink-background_1258-159931.jpg",          imageAlt: "Margot & George"}
+          id: "t5",          name: "Margot & George",          role: "Long-time Guests",          testimonial: "We've been coming to The Old Resto for decades. It feels like home, but with much better cooking! Always a delightful evening.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-beautiful-asian-mature-woman-showing-ok-sign-smiling-approve-like-product-service-standing-pink-background_1258-159931.jpg",          imageAlt: "Margot & George"
+        },
       ]}
       title="What Our Guests Say"
       description="Hear from those who have savored the unique experience that defines The Old Resto."
@@ -246,7 +242,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "Gourmet Magazine",        "The Local Gazette",        "Gastronomy Awards",        "Travel & Leisure",        "Chef's Guild",        "Foodie Forum",        "Hospitality Excellence"]
+        "Gourmet Magazine",        "The Local Gazette",        "Gastronomy Awards",        "Travel & Leisure",        "Chef's Guild",        "Foodie Forum",        "Hospitality Excellence"
       ]}
       title="Recognized for Excellence"
       description="Proudly featured in leading culinary publications and awarded by esteemed organizations for our unwavering commitment to quality."
@@ -272,7 +268,7 @@ export default function LandingPage() {
         },
         {
           id: "f5",          title: "Do you offer private dining?",          content: "Yes, we have several private dining rooms perfect for intimate gatherings or corporate events. Please contact us for more details and booking."
-        }
+        },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/happy-man-serving-guest-with-coffee-while-working-parttime-as-waiter-cafe_637285-2468.jpg"
       imageAlt="Restaurant staff welcoming guests"
@@ -298,7 +294,7 @@ export default function LandingPage() {
         },
         {
           text: "Send an Inquiry",          href: "#"
-        }
+        },
       ]}
     />
   </div>
@@ -309,48 +305,48 @@ export default function LandingPage() {
         {
           title: "Explore",          items: [
             {
-              label: "Home",              href: "/"}
-            ,
+              label: "Home",              href: "#home"
+            },
             {
-              label: "About Us",              href: "#about"}
-            ,
+              label: "About Us",              href: "#about"
+            },
             {
-              label: "Our Menu",              href: "#menu"}
-            ,
+              label: "Our Menu",              href: "#menu"
+            },
             {
-              label: "Order Online",              href: "/order-online"}
-            ,
+              label: "Order Online",              href: "/order-online"
+            },
             {
-              label: "Private Events",              href: "#events"}
-            ,
-          ]}
-        ,
+              label: "Private Events",              href: "#events"
+            },
+          ],
+        },
         {
           title: "Connect",          items: [
             {
-              label: "Reservations",              href: "#contact"}
-            ,
+              label: "Reservations",              href: "#contact"
+            },
             {
-              label: "Contact Us",              href: "#contact"}
-            ,
+              label: "Contact Us",              href: "#contact"
+            },
             {
-              label: "Careers",              href: "#"}
-            ,
+              label: "Careers",              href: "#"
+            },
             {
-              label: "Press",              href: "#"}
-            ,
-          ]}
-        ,
+              label: "Press",              href: "#"
+            },
+          ],
+        },
         {
           title: "Legal",          items: [
             {
-              label: "Privacy Policy",              href: "#"}
-            ,
+              label: "Privacy Policy",              href: "#"
+            },
             {
-              label: "Terms of Service",              href: "#"}
-            ,
-          ]}
-        ,
+              label: "Terms of Service",              href: "#"
+            },
+          ],
+        },
       ]}
       bottomLeftText="© 2024 The Old Resto. All rights reserved."
       bottomRightText="Crafted with tradition."
