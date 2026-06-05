@@ -273,8 +273,7 @@ export default function LandingPage() {
         ,
         {
           id: "f5",          title: "Do you offer private dining?",          content: "Yes, we have several private dining rooms perfect for intimate gatherings or corporate events. Please contact us for more details and booking."}
-        ,
-      ]}
+      ]
       imageSrc="http://img.b2bpic.net/free-photo/happy-man-serving-guest-with-coffee-while-working-parttime-as-waiter-cafe_637285-2468.jpg"
       imageAlt="Restaurant staff welcoming guests"
       mediaAnimation="opacity"
