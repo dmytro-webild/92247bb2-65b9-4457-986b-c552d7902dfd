@@ -109,10 +109,10 @@ export default function LandingPage() {
       description="Since its inception in 1985, The Old Resto has been a cherished culinary landmark, dedicated to preserving classic recipes and creating unforgettable dining experiences. Our commitment to quality ingredients and impeccable service has defined generations."
       metrics={[
         {
-          value: "1985",          title: "Established"
+          value: "2023 ",          title: "Established"
         },
         {
-          value: "38+",          title: "Years of Service"
+          value: "7+",          title: "Years of Service"
         },
         {
           value: "20+",          title: "Award-Winning Chefs"
