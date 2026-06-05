@@ -1,0 +1,124 @@
+"use client";
+
+import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
+import ReactLenis from "lenis/react";
+import NavbarStyleCentered from "@/components/navbar/NavbarStyleCentered/NavbarStyleCentered";
+import ProductCardOne from "@/components/sections/product/ProductCardOne";
+import FooterSimple from "@/components/sections/footer/FooterSimple";
+
+export default function OrderOnlinePage() {
+  return (
+    <ThemeProvider
+      defaultButtonVariant="hover-magnetic"
+      defaultTextAnimation="entrance-slide"
+      borderRadius="rounded"
+      contentWidth="small"
+      sizing="mediumLargeSizeLargeTitles"
+      background="aurora"
+      cardStyle="soft-shadow"
+      primaryButtonStyle="primary-glow"
+      secondaryButtonStyle="glass"
+      headingFontWeight="bold"
+    >
+      <ReactLenis root>
+        <div id="nav" data-section="nav">
+          <NavbarStyleCentered
+            navItems={[
+              {
+                name: "Home",                id: "/"},
+              {
+                name: "About",                id: "#about"},
+              {
+                name: "Menu",                id: "#menu"},
+              {
+                name: "Order Online",                id: "/order-online"},
+              {
+                name: "Events",                id: "#events"},
+              {
+                name: "Testimonials",                id: "#testimonials"},
+              {
+                name: "FAQ",                id: "#faq"},
+              {
+                name: "Contact",                id: "#contact"},
+            ]}
+            button={{
+              text: "Book a Table",              href: "#contact"}}
+            brandName="The Old Resto"
+          />
+        </div>
+
+        <div id="order-online-menu" data-section="order-online-menu">
+          <ProductCardOne
+            animationType="slide-up"
+            textboxLayout="default"
+            gridVariant="three-columns-all-equal-width"
+            useInvertedBackground={false}
+            products={[
+              {
+                id: "ol1",                name: "Classic Beef Burger",                price: "$18.00",                imageSrc: "http://img.b2bpic.net/free-photo/delicious-cheeseburger_144627-27083.jpg",                imageAlt: "Classic Beef Burger"},
+              {
+                id: "ol2",                name: "Gourmet Veggie Pizza",                price: "$22.00",                imageSrc: "http://img.b2bpic.net/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-12165.jpg",                imageAlt: "Gourmet Veggie Pizza"},
+              {
+                id: "ol3",                name: "Spicy Chicken Wings (6 pcs)",                price: "$14.00",                imageSrc: "http://img.b2bpic.net/free-photo/fried-chicken-wings-barbecue-sauce-served-with-herbs_140725-50269.jpg",                imageAlt: "Spicy Chicken Wings"},
+              {
+                id: "ol4",                name: "Crispy French Fries",                price: "$7.00",                imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-fries_23-2148135899.jpg",                imageAlt: "Crispy French Fries"},
+              {
+                id: "ol5",                name: "Fresh Garden Salad",                price: "$12.00",                imageSrc: "http://img.b2bpic.net/free-photo/fresh-salad-with-greens-tomatoes_140725-1175.jpg",                imageAlt: "Fresh Garden Salad"},
+              {
+                id: "ol6",                name: "Chocolate Lava Cake",                price: "$10.00",                imageSrc: "http://img.b2bpic.net/free-photo/cake-slice-with-melted-chocolate_23-2148408906.jpg",imageAlt: "Chocolate Lava Cake"},
+            ]}
+            title="Order Your Favorites for Delivery!"
+            description="Enjoy the timeless flavors of The Old Resto from the comfort of your home. Browse our selection and order for quick home delivery."
+            buttons={[
+              {
+                text: "Proceed to Checkout",                href: "#"},
+            ]}
+          />
+        </div>
+
+        <div id="footer" data-section="footer">
+          <FooterSimple
+            columns={[
+              {
+                title: "Explore",                items: [
+                  {
+                    label: "Home",                    href: "/"},
+                  {
+                    label: "About Us",                    href: "#about"},
+                  {
+                    label: "Our Menu",                    href: "#menu"},
+                  {
+                    label: "Order Online",                    href: "/order-online"},
+                  {
+                    label: "Private Events",                    href: "#events"},
+                ],
+              },
+              {
+                title: "Connect",                items: [
+                  {
+                    label: "Reservations",                    href: "#contact"},
+                  {
+                    label: "Contact Us",                    href: "#contact"},
+                  {
+                    label: "Careers",                    href: "#"},
+                  {
+                    label: "Press",                    href: "#"},
+                ],
+              },
+              {
+                title: "Legal",                items: [
+                  {
+                    label: "Privacy Policy",                    href: "#"},
+                  {
+                    label: "Terms of Service",                    href: "#"},
+                ],
+              },
+            ]}
+            bottomLeftText="© 2024 The Old Resto. All rights reserved."
+            bottomRightText="Crafted with tradition."
+          />
+        </div>
+      </ReactLenis>
+    </ThemeProvider>
+  );
+}
