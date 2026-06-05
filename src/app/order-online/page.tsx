@@ -64,7 +64,7 @@ export default function OrderOnlinePage() {
             useInvertedBackground={false}
             products={[
               {
-                id: "ol0",                name: "Signature BBQ Spareribs",                price: "$32.00",                imageSrc: "http://img.b2bpic.net/free-photo/roasted-rack-pork-ribs_80436-1249.jpg",                imageAlt: "Signature BBQ Spareribs"
+                id: "ol0",                name: "Signature BBQ Spareribs",                price: "$32.00",                imageSrc: "http://img.b2bpic.net/free-photo/roasted-rack-pork-ribs_80436-1249.jpg?_wi=1",                imageAlt: "Signature BBQ Spareribs"
               },
               {
                 id: "ol1",                name: "Classic Beef Burger",                price: "$18.00",                imageSrc: "http://img.b2bpic.net/free-photo/delicious-cheeseburger_144627-27083.jpg",                imageAlt: "Classic Beef Burger"
