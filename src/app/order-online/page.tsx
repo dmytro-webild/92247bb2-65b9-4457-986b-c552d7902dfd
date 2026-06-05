@@ -25,24 +25,33 @@ export default function OrderOnlinePage() {
           <NavbarStyleCentered
             navItems={[
               {
-                name: "Home",                id: "/"},
+                name: "Home",                id: "/"
+              },
               {
-                name: "About",                id: "#about"},
+                name: "About",                id: "#about"
+              },
               {
-                name: "Menu",                id: "#menu"},
+                name: "Menu",                id: "#menu"
+              },
               {
-                name: "Order Online",                id: "/order-online"},
+                name: "Order Online",                id: "/order-online"
+              },
               {
-                name: "Events",                id: "#events"},
+                name: "Events",                id: "#events"
+              },
               {
-                name: "Testimonials",                id: "#testimonials"},
+                name: "Testimonials",                id: "#testimonials"
+              },
               {
-                name: "FAQ",                id: "#faq"},
+                name: "FAQ",                id: "#faq"
+              },
               {
-                name: "Contact",                id: "#contact"},
+                name: "Contact",                id: "#contact"
+              }
             ]}
             button={{
-              text: "Book a Table",              href: "#contact"}}
+              text: "Book a Table",              href: "#contact"
+            }}
             brandName="The Old Resto"
           />
         </div>
@@ -55,23 +64,33 @@ export default function OrderOnlinePage() {
             useInvertedBackground={false}
             products={[
               {
-                id: "ol1",                name: "Classic Beef Burger",                price: "$18.00",                imageSrc: "http://img.b2bpic.net/free-photo/delicious-cheeseburger_144627-27083.jpg",                imageAlt: "Classic Beef Burger"},
+                id: "ol-spareribs",                name: "Full Rack of Signature Spareribs",                price: "$32.00",                imageSrc: "http://img.b2bpic.net/free-photo/grilled-ribs_140725-34505.jpg",                imageAlt: "Full Rack of Signature Spareribs"
+              },
               {
-                id: "ol2",                name: "Gourmet Veggie Pizza",                price: "$22.00",                imageSrc: "http://img.b2bpic.net/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-12165.jpg",                imageAlt: "Gourmet Veggie Pizza"},
+                id: "ol1",                name: "Classic Beef Burger",                price: "$18.00",                imageSrc: "http://img.b2bpic.net/free-photo/delicious-cheeseburger_144627-27083.jpg",                imageAlt: "Classic Beef Burger"
+              },
               {
-                id: "ol3",                name: "Spicy Chicken Wings (6 pcs)",                price: "$14.00",                imageSrc: "http://img.b2bpic.net/free-photo/fried-chicken-wings-barbecue-sauce-served-with-herbs_140725-50269.jpg",                imageAlt: "Spicy Chicken Wings"},
+                id: "ol2",                name: "Gourmet Veggie Pizza",                price: "$22.00",                imageSrc: "http://img.b2bpic.net/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-12165.jpg",                imageAlt: "Gourmet Veggie Pizza"
+              },
               {
-                id: "ol4",                name: "Crispy French Fries",                price: "$7.00",                imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-fries_23-2148135899.jpg",                imageAlt: "Crispy French Fries"},
+                id: "ol3",                name: "Spicy Chicken Wings (6 pcs)",                price: "$14.00",                imageSrc: "http://img.b2bpic.net/free-photo/fried-chicken-wings-barbecue-sauce-served-with-herbs_140725-50269.jpg",                imageAlt: "Spicy Chicken Wings"
+              },
               {
-                id: "ol5",                name: "Fresh Garden Salad",                price: "$12.00",                imageSrc: "http://img.b2bpic.net/free-photo/fresh-salad-with-greens-tomatoes_140725-1175.jpg",                imageAlt: "Fresh Garden Salad"},
+                id: "ol4",                name: "Crispy French Fries",                price: "$7.00",                imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-fries_23-2148135899.jpg",                imageAlt: "Crispy French Fries"
+              },
               {
-                id: "ol6",                name: "Chocolate Lava Cake",                price: "$10.00",                imageSrc: "http://img.b2bpic.net/free-photo/cake-slice-with-melted-chocolate_23-2148408906.jpg",imageAlt: "Chocolate Lava Cake"},
+                id: "ol5",                name: "Fresh Garden Salad",                price: "$12.00",                imageSrc: "http://img.b2bpic.net/free-photo/fresh-salad-with-greens-tomatoes_140725-1175.jpg",                imageAlt: "Fresh Garden Salad"
+              },
+              {
+                id: "ol6",                name: "Chocolate Lava Cake",                price: "$10.00",                imageSrc: "http://img.b2bpic.net/free-photo/cake-slice-with-melted-chocolate_23-2148408906.jpg",                imageAlt: "Chocolate Lava Cake"
+              }
             ]}
-            title="Order Your Favorites for Delivery!"
-            description="Enjoy the timeless flavors of The Old Resto from the comfort of your home. Browse our selection and order for quick home delivery."
+            title="Order Your Favorite Dishes & Spareribs for Delivery!"
+            description="Enjoy the legendary taste of The Old Resto, including our famous spareribs, from the comfort of your home. Browse our selection and order for quick home delivery."
             buttons={[
               {
-                text: "Proceed to Checkout",                href: "#"},
+                text: "Proceed to Checkout",                href: "#"
+              }
             ]}
           />
         </div>
@@ -82,37 +101,48 @@ export default function OrderOnlinePage() {
               {
                 title: "Explore",                items: [
                   {
-                    label: "Home",                    href: "/"},
+                    label: "Home",                    href: "/"
+                  },
                   {
-                    label: "About Us",                    href: "#about"},
+                    label: "About Us",                    href: "#about"
+                  },
                   {
-                    label: "Our Menu",                    href: "#menu"},
+                    label: "Our Menu",                    href: "#menu"
+                  },
                   {
-                    label: "Order Online",                    href: "/order-online"},
+                    label: "Order Online",                    href: "/order-online"
+                  },
                   {
-                    label: "Private Events",                    href: "#events"},
-                ],
+                    label: "Private Events",                    href: "#events"
+                  }
+                ]
               },
               {
                 title: "Connect",                items: [
                   {
-                    label: "Reservations",                    href: "#contact"},
+                    label: "Reservations",                    href: "#contact"
+                  },
                   {
-                    label: "Contact Us",                    href: "#contact"},
+                    label: "Contact Us",                    href: "#contact"
+                  },
                   {
-                    label: "Careers",                    href: "#"},
+                    label: "Careers",                    href: "#"
+                  },
                   {
-                    label: "Press",                    href: "#"},
-                ],
+                    label: "Press",                    href: "#"
+                  }
+                ]
               },
               {
                 title: "Legal",                items: [
                   {
-                    label: "Privacy Policy",                    href: "#"},
+                    label: "Privacy Policy",                    href: "#"
+                  },
                   {
-                    label: "Terms of Service",                    href: "#"},
-                ],
-              },
+                    label: "Terms of Service",                    href: "#"
+                  }
+                ]
+              }
             ]}
             bottomLeftText="© 2024 The Old Resto. All rights reserved."
             bottomRightText="Crafted with tradition."
