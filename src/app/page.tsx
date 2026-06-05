@@ -162,10 +162,10 @@ export default function LandingPage() {
           id: "p2",          name: "Pan-Seared Scallops",          price: "€38.00",          imageSrc: "http://img.b2bpic.net/free-photo/salmon-salad_74190-5239.jpg",          imageAlt: "Fresh seafood platter"
         },
         {
-          id: "p3",          name: "Truffle Mushroom Risotto",          price: "€29.00",          imageSrc: "https://img.b2bpic.net/premium-photo/plate-pasta-with-bottle-beer-it_975681-4909.jpg?id=229148558",          imageAlt: "Creamy mushroom risotto"
+          id: "p3",          name: "Truffle Mushroom Risotto",          price: "€29.00",          imageSrc: "https://img.b2bpic.net/premium-photo/risotto-with-mushrooms-and-truffles-closeup_159670-3490.jpg",          imageAlt: "Creamy mushroom risotto"
         },
         {
-          id: "p4",          name: "Classic Carbonara",          price: "€26.00",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-person-with-kitchen-utensils-dark-background_23-2148296895.jpg",          imageAlt: "Creamy pasta dish"
+          id: "p4",          name: "Classic Carbonara",          price: "€26.00",          imageSrc: "https://img.b2bpic.net/premium-photo/delicious-pasta-carbonara-white-bowl-dark-surface_159670-2210.jpg",          imageAlt: "Creamy pasta dish"
         },
         {
           id: "p5",          name: "Heirloom Tomato Salad",          price: "€18.00",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-chopped-greens-bowl-white-checkered-towel-with-acroshka-yogurt-gray-surface-gray-surface_141793-18321.jpg",          imageAlt: "Fresh vibrant salad"
