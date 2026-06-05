@@ -235,7 +235,6 @@ export default function LandingPage() {
         ,
         {
           id: "t5",          name: "Margot & George",          role: "Long-time Guests",          testimonial: "We've been coming to The Old Resto for decades. It feels like home, but with much better cooking! Always a delightful evening.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-beautiful-asian-mature-woman-showing-ok-sign-smiling-approve-like-product-service-standing-pink-background_1258-159931.jpg",          imageAlt: "Margot & George"}
-        ,
       ]}
       title="What Our Guests Say"
       description="Hear from those who have savored the unique experience that defines The Old Resto."
@@ -298,7 +297,6 @@ export default function LandingPage() {
         ,
         {
           text: "Send an Inquiry",          href: "#"}
-        ,
       ]}
     />
   </div>
